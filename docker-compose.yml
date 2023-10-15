@@ -5,8 +5,8 @@ services:
     container_name: go_db
     image: postgres:16
     environment:
-      POSTGRES_PASSWORD: postgres
-      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: 1180880
+      POSTGRES_USER: 1180880
       POSTGRES_DB: manuel
     ports:
       - "5435:5435"
